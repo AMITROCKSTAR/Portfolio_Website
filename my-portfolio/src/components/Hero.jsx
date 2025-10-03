@@ -9,7 +9,7 @@ const Hero = () => (
     AI & Web Developer | Tech Enthusiast
   </p>
   <div className="flex flex-col sm:flex-row gap-4">
-    <a href="/resume.pdf" download className="px-6 py-3 bg-white text-blue-600 font-semibold rounded shadow-lg hover:bg-gray-100 transition">
+    <a href="/Amit_K_AI_resume.pdf" download className="px-6 py-3 bg-white text-blue-600 font-semibold rounded shadow-lg hover:bg-gray-100 transition">
       Download Resume
     </a>
     <a href="/contact" className="px-6 py-3 bg-blue-600 text-white font-semibold rounded shadow-lg hover:bg-blue-700 transition">
