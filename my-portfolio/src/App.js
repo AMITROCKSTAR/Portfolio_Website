@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import NotFound from './components/Not_found_page';
+import Blog from "./components/Blog";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -28,6 +29,7 @@ function App() {
         <Route path="/skills" element={<Skills />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound/>}/>
+        <Route path="/blog" element={<Blog />} />
       </Routes>
     </Router>
   );
