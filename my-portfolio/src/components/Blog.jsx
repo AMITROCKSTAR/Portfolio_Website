@@ -1,5 +1,5 @@
 import React from "react";
-
+import PageWrapper from './Page_wrapper';
 const Blog = () => {
   // Dummy blog posts
   const posts = [
@@ -27,7 +27,8 @@ const Blog = () => {
   ];
 
   return (
-    <section
+    <PageWrapper
+><section
       id="blog"
       className="min-h-screen bg-gray-50 p-8 flex flex-col items-center"
     >
@@ -53,7 +54,7 @@ const Blog = () => {
           </div>
         ))}
       </div>
-    </section>
+    </section></PageWrapper>    
   );
 };
 
