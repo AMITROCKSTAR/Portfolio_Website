@@ -9,7 +9,7 @@ const projects = [
 const Projects = () => (
  <PageWrapper> <section id="projects" className="relative min-h-screen flex flex-col justify-center items-center p-8 bg-cover bg-center"
   style={{ backgroundImage: "url('/—Pngtree—ai artificial intelligence starry sky_1493062.jpg')" }}>
-    <h2 className="text-4xl font-bold mb-8 text-center text-gray-800">Projects</h2>
+    {/* <h2 className="text-4xl font-bold mb-8 text-center text-gray-800">Projects</h2> */}
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
   {projects.map((project, index) => (
     <div key={index} className="p-6 bg-gray-50 rounded-xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2 hover:scale-105"  data-aos="fade-up"

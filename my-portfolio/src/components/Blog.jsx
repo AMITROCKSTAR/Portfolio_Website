@@ -35,9 +35,9 @@ const Blog = () => {
 
         {/* Content */}
         <div className="relative z-10 w-full max-w-6xl text-center flex flex-col justify-center h-full">
-          <h2 className="text-4xl font-extrabold text-white mb-12 drop-shadow-lg">
+          {/* <h2 className="text-4xl font-extrabold text-white mb-12 drop-shadow-lg">
             My Blog
-          </h2>
+          </h2> */}
 
           {/* Grid of cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

@@ -6,7 +6,7 @@ const Skills = () => (
 
   <PageWrapper><section id="skills" className="relative flex flex-col justify-center items-center h-screen p-4 bg-cover bg-center bg-fixed overflow-hidden"
         style={{ backgroundImage: "url('/3-5-scaled-1-128271_1080x675.jpg')" }}>
-    <h2 className="text-4xl font-bold mb-8 text-center text-gray-800">Skills</h2>
+    {/* <h2 className="text-4xl md:text-5xl font-bold mb-12 text-black drop-shadow-lg">Skills</h2> */}
    <div className="flex flex-wrap justify-center gap-4">
   {skills.map((skill, index) => (
     <span key={index} className="px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-blue-400 to-purple-500 text-white rounded-full font-medium shadow-md hover:scale-105 transform transition">

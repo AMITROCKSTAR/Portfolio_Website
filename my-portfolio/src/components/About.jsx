@@ -28,7 +28,9 @@ const About = () => (
           <a
             href="/Amit_K_AI_resume.pdf"
             download
-            className="mt-2 inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-xl shadow-lg hover:bg-blue-700 hover:scale-105 transition transform"
+            className="flex items-center justify-center gap-3 bg-black text-white p-4 rounded-xl shadow-lg 
+             hover:bg-transparent hover:text-black border border-black 
+             hover:shadow-xl transition font-medium"
           >
             Download Resume
           </a>

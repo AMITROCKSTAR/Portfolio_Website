@@ -21,7 +21,7 @@ const Contact = () => {
         <div className="absolute inset-0 bg-black/20"></div>
 
         <div className="relative z-10 w-full max-w-3xl text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-12 text-white drop-shadow-lg">Contact Me</h2>
+          {/* <h2 className="text-4xl md:text-5xl font-bold mb-12 text-white drop-shadow-lg">Contact Me</h2> */}
 
           <div className="space-y-6">
             {/* Email Card */}
@@ -33,11 +33,11 @@ const Contact = () => {
                 </a>
               </div>
               <button
-                onClick={copyEmail}
-                className="px-3 py-1 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
-              >
-                Copy
-              </button>
+  onClick={copyEmail}
+  className="px-3 py-1 bg-black text-white rounded hover:bg-gray-800 transition"
+>
+  Copy
+</button>
             </div>
 
             {/* LinkedIn Card */}
@@ -72,13 +72,15 @@ const Contact = () => {
 
             {/* Resume Card */}
             <a
-              href="/Amit_K_AI_resume.pdf"
-              download
-              className="flex items-center justify-center gap-3 bg-blue-600 text-white p-4 rounded-xl shadow-lg hover:bg-blue-700 hover:shadow-xl transition font-medium"
-            >
-              <FaFileDownload className="text-white text-2xl" />
-              Download Resume
-            </a>
+  href="/Amit_K_AI_resume.pdf"
+  download
+  className="flex items-center justify-center gap-3 bg-black text-white p-4 rounded-xl shadow-lg 
+             hover:bg-transparent hover:text-black border border-black 
+             hover:shadow-xl transition font-medium"
+>
+  <FaFileDownload className="text-2xl" />
+  Download Resume
+</a>
           </div>
         </div>
       </section>
