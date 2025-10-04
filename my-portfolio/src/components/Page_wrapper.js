@@ -1,7 +1,7 @@
 import React from 'react';
 
 const PageWrapper = ({ children }) => (
-  <div className="pt-20">{children}</div>
+  <div className="w-full h-full">{children}</div>
 );
 
 export default PageWrapper;
